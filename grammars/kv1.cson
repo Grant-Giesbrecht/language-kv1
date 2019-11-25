@@ -1,0 +1,12 @@
+name: 'KV1'
+'scopeName': 'KV1'
+type: "tree-sitter"
+parser: 'tree-sitter-kv1'
+'fileTypes': [
+	kv1
+]
+'firstLineRegex': '#VERSION.'
+scopes: //TODO: Make this correct
+  'call_expression > identifier': 'entity.name.function'
+comments:
+  start: '// '
