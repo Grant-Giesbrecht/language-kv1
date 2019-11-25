@@ -6,7 +6,7 @@ fileTypes: [
 	kv1
 ]
 firstLineRegex: '#VERSION.'
-scopes: //TODO: Make this correct
+scopes:
   'call_expression > identifier': 'entity.name.function'
 comments:
   start: '// '
