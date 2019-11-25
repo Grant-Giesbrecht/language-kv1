@@ -9,9 +9,13 @@ firstLineRegex: '#VERSION.'
 comments:
   start: '// '
 scopes:
-	'comment': 'comment.block'
 	'version_statement': 'keyword.control.directive'
 	'vert_statement': 'keyword.control.directive'
+	'header_statement': 'keyword.control.directive'
+
+	'header_text': 'comment.block'
+	'comment': 'comment.block'
+
 	'var_type': 'support.storage.type'
 	'mat_type': 'support.storage.type'
 	'bool': 'constant.language.boolean'
