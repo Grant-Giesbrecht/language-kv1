@@ -6,7 +6,14 @@ fileTypes: [
 	'kv1'
 ]
 firstLineRegex: '#VERSION.'
-scopes:
-  'comment': 'entity'
 comments:
   start: '// '
+scopes:
+	'comment': 'comment.block'
+	'version_statement': 'keyword.control.directive'
+	'vert_statement': 'keyword.control.directive'
+	'var_type': 'support.storage.type'
+	'mat_type': 'support.storage.type'
+	'bool': 'constant.language.boolean'
+	'string': 'string.quoted.double'
+	'number': 'constant.numeric.decimal'
