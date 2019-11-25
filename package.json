@@ -1,7 +1,7 @@
 {
-  "name": "language-kv1",
+  "name": "tree-sitter-kv1",
   "version": "0.1.0",
-  "description": "Parser for KV1 data file language",
+  "description": "Syntax for KV1 data file language",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
