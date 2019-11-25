@@ -1,11 +1,11 @@
 name: 'KV1'
-'scopeName': 'KV1'
-type: "tree-sitter"
+scopeName: 'KV1'
+type: 'tree-sitter'
 parser: 'tree-sitter-kv1'
-'fileTypes': [
-	kv1
+fileTypes: [
+	'kv1'
 ]
-'firstLineRegex': '#VERSION.'
+firstLineRegex: '#VERSION.'
 scopes:
   'call_expression > identifier': 'entity.name.function'
 comments:
