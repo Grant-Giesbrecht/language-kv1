@@ -11,8 +11,10 @@ comments:
 scopes:
 	'version_statement': 'keyword.control.directive'
 	'vert_statement': 'keyword.control.directive'
+	'vert_note_statement': 'keyword.control.directive'
 	'header_statement': 'keyword.control.directive'
 
+	'vert_note_text': 'comment.block'
 	'header_text': 'comment.block'
 	'comment': 'comment.block'
 
