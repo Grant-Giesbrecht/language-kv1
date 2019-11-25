@@ -7,6 +7,6 @@ fileTypes: [
 ]
 firstLineRegex: '#VERSION.'
 scopes:
-  'call_expression > identifier': 'entity.name.function'
+  'comment': 'entity'
 comments:
   start: '// '
