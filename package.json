@@ -1,0 +1,21 @@
+{
+  "name": "tree-sitter-kv1",
+  "version": "0.0.0",
+  "description": "Parser for KV1 data file language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant Giesbrecht",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grant-Giesbrecht/language-kv1.git"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.15.14"
+  }
+}
